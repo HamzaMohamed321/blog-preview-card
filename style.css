@@ -1,0 +1,95 @@
+* {
+    font-family: "Figtree", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    background-color: white;
+    width: 384px;
+    height: 522px;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 7px 6px 1px 1px hsl(0, 0%, 7%);
+}
+
+.card .image {
+    /* position: relative; */
+    width: 336px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.card .image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .text {
+    margin: 20px 24px;
+}
+
+.card .text .status {
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+
+.card .text .status p {
+    width: 100%;
+    font-weight: bold;
+    /* font-size: 14px; */
+}
+
+.card .text .date {
+    color: hsl(0, 0%, 7%);
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card .text .title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.card .text .description {
+    margin-top: 20px;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+
+.card .profile {
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    left: 20px;
+}
+
+.card .profile .profile-pic img {
+    display: flex;
+    width: 32px;
+    align-items: center;
+}
+
+.card .profile .profile-pic {
+    margin-right: 14px;
+}
+
+.card .profile .username {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
