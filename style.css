@@ -93,3 +93,7 @@ body {
     align-items: center;
     font-weight: bold;
 }
+
+.card .text .title:hover {
+    color: hsl(47, 88%, 63%);
+}
